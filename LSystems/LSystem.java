@@ -27,6 +27,7 @@ public class LSystem {
 	static int j;
 	static int k;
 	
+	//This is a testfunction that draws a hard-coded pattern for a given iteration #:
 	static ArrayList<String> pattern(int iteration){
 	
    	ArrayList<String> pattern = new ArrayList<String>();//pattern.
@@ -76,6 +77,7 @@ public class LSystem {
     return pattern;	
 	}
 
+//This is the function used by the program, it takes as input starting pattern, replacement rules and amount of iterations:
 		static ArrayList<String> pattern(int iteration,ArrayList <String> al,ArrayList <String> rule1,ArrayList <String> rule2,ArrayList <String> rule3){
 	// al contains starting pattern.
 	//rule 1 contains rewriting rules for F.
